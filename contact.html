@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>F1 Fan Page</title>
+</head>
+
+<body>
+    <header>
+        <div class="hero-image"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+                <li><a href="about_us.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1>Contacts
+        </h1>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89171.55397658973!2d15.996805773014183!3d45.69877679931288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4766876780b60347%3A0x400ad50862bb790!2sVelika%20Gorica!5e0!3m2!1shr!2shr!4v1573392676086!5m2!1shr!2shr"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+        <section class="mb-4">
+
+
+            <h2 class="h1-responsive font-weight-bold text-center my-4">Kontaktirajte nas!</h2>
+
+            <p class="text-center w-responsive mx-auto mb-5">Imate pitanja? Kontaktirajte nas! Molimo Vas da se ne ustručavate sa pitanjima vezanim za ovu stranicu. Odgovorit ćemo Vam u što kraćem roku.</p>
+
+            <div class="row">
+
+                <div class="col-sm-12 mb-md-0 mb-5">
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+
+                        <div class="row">
+
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Vaše Ime i Prezime</label>
+                                </div>
+                            </div>
+
+
+
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Vaš e-mail</label>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subjekt</label>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="row">
+
+
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2"
+                                        class="form-control md-textarea"></textarea>
+                                    <label for="message">Vaša Poruka</label>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-outline-danger" onclick="document.getElementById('contact-form').submit();">Pošalji</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>All Copyright goes to FIA F1. We do not own any of these products shown.</footer>
+
+</body>
+
+
+
+</html>
